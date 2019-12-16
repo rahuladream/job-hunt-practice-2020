@@ -1,7 +1,7 @@
 """
 Objective is to learn
 1. append()
-2. inser()
+2. insert()
 """
 
 import array
