@@ -12,27 +12,18 @@ defined as the number of unordered pairs of cells
 4 3 
 1 4
 
-t=int(input())
- 
-while(t):
-    n=int(input())
-    a=[]
-    ct=0
-    for i in range(0,n): 
-        a.append([int(j) for j in input().split()])  
-    for i in range(0,n):
-        for j in range(0,n):
-            for k in range(0,n):
-                for l in range(0,n):
-                    if(i<=k and j<=l and a[i][j]>a[k][l]):
-                        ct=ct+1
-    
-    print(ct)
-    t=t-1
 """
 
 t = input()
 for t in range(int(t)):
-    no_of_rc = input()
-    mat = [[int(input()) for x in range(int(no_of_rc))] for y in range(int(no_of_rc))]
-    print(mat)
+    n = int(input())
+    no_of_rc = []
+    ct = 0
+    for i in range(0,n):
+        no_of_rc.append([int(j) for j in input().split()])
+    for i in range(0,n):
+        for k in range(0,n):
+            for in range(0,n):
+                if(i<=k and j<=l and a[i][j] > a[k][l]):
+                    ct=ct+1
+
