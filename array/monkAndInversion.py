@@ -24,6 +24,6 @@ for t in range(int(t)):
     for i in range(0,n):
         for k in range(0,n):
             for in range(0,n):
-                if(i<=k and j<=l and a[i][j] > a[k][l]):
+                if(i<=k and j<=l and no_of_rc[i][j] > no_of_rc[k][l]):
                     ct=ct+1
 
